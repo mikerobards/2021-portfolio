@@ -8,7 +8,7 @@
 
 :root {
   --red-text: #f50000;
-  --dark-red: rgb(122, 0, 0);
+  --dark-red: rgb(160, 0, 0);
   --mid-red: rgb(206, 98, 98);
 }
 
@@ -198,6 +198,40 @@ li a {
   background-image: url(images/myreads.png);
   background-size: cover;
   background-position: center;
+}
+
+.text-container {
+  position: absolute;
+  height: 75px;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.text-container:hover {
+  height: 250px;
+}
+
+.name {
+  margin-top: 10px;
+  color: var(--dark-red);
+  font-size: 2rem;
+}
+
+.content {
+  padding: 25px 0;
+  color: var(--mid-red);
+}
+
+.button {
+  border: 5px solid var(--red-text);
+  width: 160px;
+  box-shadow: -15px 7px 30px rgba(0,0,0,0.2);
+  padding: 15px;
+  margin-bottom: 50px;
 }
 
 
