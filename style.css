@@ -209,6 +209,7 @@ li a {
   bottom: 0;
   background-color: #fff;
   overflow: hidden;
+  padding: 5px;
 }
 
 .text-container:hover {
@@ -230,10 +231,14 @@ li a {
   border: 5px solid var(--red-text);
   width: 160px;
   box-shadow: -15px 7px 30px rgba(0,0,0,0.2);
-  padding: 15px;
-  margin-bottom: 50px;
+  padding: 10px;
 }
 
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin: -10px 10px 0;
+}
 /* about section */
 
 .about-container {
