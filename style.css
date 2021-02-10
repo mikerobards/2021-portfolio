@@ -271,5 +271,69 @@ li a {
   margin-left: 100px;
 }
 
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  width: 30%;
+  margin: 40% 35%;
+  padding-top: 30px;
+}
+
+/* mobile view  */
+@media (max-width: 768px) {
+  #nav {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: block;
+  }
+
+  .mobile-navbar {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+  }
+
+  ul {
+    background-color: rgba(0,0,0,0.625);
+  }
+
+  .simon-project,
+  .arcade-project,
+  .memory-project,
+  .myreads-project {
+    width: 250px;
+  }
+
+  .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-image {
+    margin-top: 20px;
+    height: 300px;
+    width: 225px;
+  }
+
+  .about-text {
+    margin-left: 20px;
+    width: 100%;
+    font-size: 0.75rem;
+  }
+
+  .social-icons i {
+    font-size: 2rem;
+    padding: 10px;
+    margin-left: -10px;
+  }
+
+}
+
 
 
